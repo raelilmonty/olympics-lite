@@ -28,7 +28,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install pytest pytest-cov faker ruff
+        pip install pytest pytest-cov sqlalchemy ruff
 
     - name: Run linter
       run: |
